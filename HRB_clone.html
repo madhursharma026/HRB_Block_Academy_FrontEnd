@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="body_content">
+    <div class="left_sidebar text-center pt-3"
+        style="background: #e0e0e0; height: 100vh; position: fixed; width: 80px;">
+        <a href="#Activity" class="left_sidebar_link_tag" style="text-decoration: none; display: block;">
+            <i class="fa fa-bell" style="font-size: 20px; color: white; text-shadow: 0 0 3px #000;"></i>
+            <h6 style="color: gray;">Activity</h6>
+        </a>
+        <a href="#Chat" class="left_sidebar_link_tag" style="text-decoration: none; display: block;">
+            <i class="fa fa-comment pt-3" style="font-size: 20px; color: white; text-shadow: 0 0 3px #000;"></i>
+            <h6 style="color: gray;">Chat</h6>
+        </a>
+        <a href="#Teams" class="left_sidebar_link_tag" style="text-decoration: none; display: block;">
+            <i class="fa fa-group pt-3" style="font-size: 20px; color: white; text-shadow: 0 0 3px #000;"></i>
+            <h6 style="color: gray;">Teams</h6>
+        </a>
+        <a href="#Calendar" class="left_sidebar_link_tag" style="text-decoration: none; display: block;">
+            <i class="fa fa-calendar pt-3" style="font-size: 20px; color: white; text-shadow: 0 0 3px #000;"></i>
+            <h6 style="color: gray;">Calendar</h6>
+        </a>
+        <a href="#Files" class="left_sidebar_link_tag" style="text-decoration: none; display: block;">
+            <i class="fa fa-file pt-3" style="font-size: 20px; color: white; text-shadow: 0 0 3px #000;"></i>
+            <h6 style="color: gray;">Files</h6>
+        </a>
+        <a href="#HRB" class="left_sidebar_link_tag" style="text-decoration: none; display: block;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm4UTJRn61JYJp60jzCemfIzGNvUOJo39SWqtT-46lf-AvqeNVfugKPtFSqffj9T0QnsE&usqp=CAU"
+                alt="#" class="mt-3" width="40px" height="40px">
+            <h6 style="color: gray;">HRB</h6>
+        </a>
+        <i class="fa fa-ellipsis-h text-secondary"></i>
+        <hr>
+        <a href="#Apps" class="left_sidebar_link_tag" style="text-decoration: none; display: block;">
+            <i class="fa fa-th pt-3" style="font-size: 20px; color: white; text-shadow: 0 0 3px #000;"></i>
+            <h6 style="color: gray;">Apps</h6>
+        </a>
+    </div>
+    <div class="all_content">
+        <div class="fixed-top header" style="margin-left: 80px;">
+            <nav class="navbar px-3" style="background: #f7f7f7; height: 50px;">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm4UTJRn61JYJp60jzCemfIzGNvUOJo39SWqtT-46lf-AvqeNVfugKPtFSqffj9T0QnsE&usqp=CAU"
+                            alt="" width="30" height="30" class="d-inline-block align-text-top">
+                        <span style="font-weight: 600;">HRB - Block Academy</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="px-5" style="margin-left: 80px; background: #ededed; padding-top: 50px; min-height: 100vh; max-height: 100%;">
+            <div class="row">
+                <div class="col-4 p-4">
+                    <p class="text-secondary" style="font-size: 35px;">Welcome, Joseph</p>
+                    <p class="text-secondary" style="font-size: 30px;">Next Training</p>
+                    <textarea rows="3"
+                        style="width: 100%; border: none; padding: 30px; font-size: 24px; color: gray;">No Trainings Scheduled!</textarea>
+                    <p class="text-secondary mt-5" style="font-size: 30px;">Recent Completed Trainings</p>
+                    <textarea rows="3"
+                        style="width: 100%; border: none; padding: 30px; font-size: 24px; color: gray;">No Trainings Scheduled!</textarea>
+                </div>
+                <div class="col-8">
+                    <p class="text-secondary pt-4" style="font-size: 35px;"><span class="pb-2"
+                            style="border-bottom: 3px solid blue;">Training &emsp;</span></p>
+                    <p class="text-secondary" style="font-size: 24px;">
+                        <a href="#UpcommingTainings" style="text-decoration: none; color: black;">Upcomming Tainings</a>
+                        <a href="#Completed"
+                            style="text-decoration: none; color: blue; margin-left: 10px;">Completed</a>
+                        <button type="button" class="btn btn-primary" style="float: right;">Add Trainings</button>
+                    </p>
+                    <div style="background-color: white;">
+                        <div class="py-5 text-center">
+                            <img src="https://assets.website-files.com/5ed945986aedf80ff9c4bfd8/6286a9e0fd2ccf387a58d771_best-productivity-tools-for-managers-reclaim-ai-blog.png"
+                                alt="#" width="600px" height="500px">
+                                <p class="text-secondary" style="font-size: 24px;">No Trainings Scheduled! Sxheduled one Now.</p>
+                                <button type="button" class="btn btn-primary">Add Trainings</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
